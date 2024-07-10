@@ -31,12 +31,21 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: npx next build && npx next export
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Directory contents:"
+          ls -la
+          echo "Building Next.js project..."
+          npm run build
+          echo "Build completed. Directory contents:"
+          ls -la
+          echo "Contents of .next directory:"
+          ls -la .next || echo ".next directory not found"
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./.next/static
 
   deploy:
     environment:
