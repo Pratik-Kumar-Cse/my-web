@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>Tushar Dixit | Portfolio</title>
+				<title>Pratik Kumar | Portfolio</title>
 				<link
 					rel="apple-touch-icon"
 					sizes="57x57"

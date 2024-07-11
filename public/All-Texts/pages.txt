@@ -1,6 +1,6 @@
 HOME PAGE: 
 
-- Turning Vision Into Reality With Code And Design. 
+- Turning complex problems into elegant solutions with a full-stack approach. 
 - As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
 Explore my latest projects and articles, showcasing my expertise in React.js and web development.
 

@@ -26,7 +26,7 @@ function Footer() {
 					© 2023-2024 All rights reserved | Build with{' '}
 					<text className='text-red-600 hover:text-red-600 cursor-pointer text-lg "'> &nbsp; ❤  &nbsp;</text>by{' '}
 					<span className="hover:text-blue-800 font-semibold cursor-pointer">
-						Tushar Dixit
+						Pratik Kumar
 					</span>
 				</h4>
 			</div>
