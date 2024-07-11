@@ -48,20 +48,8 @@ const Education = () => {
 					<Details
 						type="Bachelor of Technology In Computer Science"
 						time="2019-2023"
-						place="Pranveer Singh Institute of Technology (PSIT)"
+						place="Krishna Engineering College (KEC)"
 						info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
-					/>
-					<Details
-						type="Higher secondary (12th)"
-						time="2016-2018"
-						place="ST. Joseph Montessori School"
-						info="Relevant courses included Mathematics, Science, Computer Science, and English."
-					/>
-					<Details
-						type="Secondary School (10th)"
-						time="2014-2016"
-						place="City Convent School"
-						info="Relevant courses included Mathematics, Science, Computer Science, and English."
 					/>
 				</ul>
 			</div>
